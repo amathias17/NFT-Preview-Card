@@ -48,6 +48,11 @@ body {
   margin-bottom: 16px;
 }
 
+.card__heading:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
 .card__description {
   font-weight: 300;
   font-size: 18px;
@@ -102,4 +107,9 @@ body {
 
 .avatar__name strong {
   color: var(--white);
+}
+
+.avatar__name strong:hover {
+  color: var(--cyan);
+  cursor: pointer;
 }
