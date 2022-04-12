@@ -36,9 +36,11 @@ body {
 .container-overlay {
   position: relative;
 }
+
 .container-overlay:hover .overlay {
   opacity: 1;
 }
+
 .card__img {
   width: 302px;
   height: 302px;
@@ -59,6 +61,7 @@ body {
   border-radius: 8px;
   background-color: rgba(0, 255, 248, 0.5);
 }
+
 .icon {
   color: white;
   font-size: 100px;
