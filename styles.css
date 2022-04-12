@@ -33,13 +33,42 @@ body {
   padding: 24px;
 }
 
+.container-overlay {
+  position: relative;
+}
+.container-overlay:hover .overlay {
+  opacity: 1;
+}
 .card__img {
   width: 302px;
   height: 302px;
   border-radius: 8px;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 302px;
+  width: 302px%;
+  opacity: 0;
+  transition: 0.3s ease;
+  border-radius: 8px;
+  background-color: rgba(0, 255, 248, 0.5);
+}
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
 .card__heading {
   font-weight: 600px;
   font-size: 22px;
