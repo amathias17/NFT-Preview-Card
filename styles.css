@@ -39,6 +39,7 @@ body {
 
 .container-overlay:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
 
 .card__img {
